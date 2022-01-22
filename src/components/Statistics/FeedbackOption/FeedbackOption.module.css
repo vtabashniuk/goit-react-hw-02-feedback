@@ -1,14 +1,15 @@
 .list {
-    display: flex;
-    padding: 15px 0;
-    justify-content: space-between;
+  display: flex;
+  padding: 15px 0;
+  justify-content: space-between;
 }
 
 .button {
-    width: 75px;
-    height: 25px;
-    cursor: pointer;
-    background-color: #1F2434;
-    color: #F5E8C0;
-    border-radius: 4px;
+  --width: 75px;
+  width: var(--width);
+  height: calc(var(--width) / 2.5);
+  cursor: pointer;
+  background-color: #1f2434;
+  color: #f5e8c0;
+  border-radius: 5px;
 }
