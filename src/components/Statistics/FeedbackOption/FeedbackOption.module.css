@@ -1,0 +1,14 @@
+.list {
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-between;
+}
+
+.button {
+    width: 75px;
+    height: 25px;
+    cursor: pointer;
+    background-color: #1F2434;
+    color: #F5E8C0;
+    border-radius: 4px;
+}

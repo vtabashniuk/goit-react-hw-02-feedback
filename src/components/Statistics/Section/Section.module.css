@@ -1,0 +1,13 @@
+.section {
+    display: block;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #FFC15A;
+}
+
+.title {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
